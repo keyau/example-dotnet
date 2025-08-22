@@ -12,22 +12,6 @@ updates:
       day: 'monday'
       time: '09:00'
       timezone: 'Europe/Paris'
-    groups:
-      microsoft-patch-updates:
-        patterns:
-          - 'Microsoft.*'
-        update-types:
-          - 'patch'
-      microsoft-minor-updates:
-        patterns:
-          - 'Microsoft.*'
-        update-types:
-          - 'minor'
-      microsoft-major-updates:
-        patterns:
-          - 'Microsoft.*'
-        update-types:
-          - 'major'
     commit-message:
       prefix: 'nuget'
     labels:
